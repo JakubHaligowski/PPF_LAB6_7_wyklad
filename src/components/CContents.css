@@ -1,0 +1,14 @@
+.contentsFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background-color: rgb(163, 194, 117);
+    padding: 5px;
+    font-size: 23px;
+}
+
+.contentsFlexImg{
+    width: 25vw;
+    padding: 10px;
+}

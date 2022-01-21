@@ -1,0 +1,20 @@
+import logo from "../logo.svg";
+import React, { Component } from "react";
+import "./CHeader.css";
+
+class CHeader extends Component {
+  render() {
+    const { aName, aFamily } = this.props;
+    return (
+      <div className="headerContainer">
+        <img src={logo} className="headerLogo" alt="logo" />
+        <h2>
+          Witaj w przykładowym serwisie{" "}
+          {aName + " " + aFamily}{" "}
+        </h2>
+      </div>
+    );
+  }
+}
+
+export default CHeader;
